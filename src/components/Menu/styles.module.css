@@ -1,0 +1,29 @@
+.menu {
+  display: flex; /*pesquisar display flexbox otavio miranda*/
+  align-content: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+/*cameCase para ser chamado no componente dessa forma styles.menuLink*/
+.menuLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: var(--primary);
+  color: var(--text-over-primary);
+  transition: all 0.3s ease-in-out;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.menuLink:hover {
+  filter: brightness(80%);
+}
+
+.menuLink svg {
+  /* compnente TimerIcon vira svg*/
+  width: 2.4rem;
+  height: 2.4rem; /*64px*/
+}

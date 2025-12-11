@@ -1,0 +1,8 @@
+/*A mendida vw da tamanho da tela, 25vw significa 25% da tela*/
+.container {
+  font-size: clamp(8rem, 30vw, 16rem);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.3rem;
+  margin-top: 12rem;
+}
