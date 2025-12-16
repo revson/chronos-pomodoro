@@ -6,8 +6,8 @@
   padding-top: 3.2rem;
 }
 
-
-.logoLink{ /*cameCase para ser chamado no componente dessa forma styles.logoLink*/
+.logoLink {
+  /*cameCase para ser chamado no componente dessa forma styles.logoLink*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,11 +20,12 @@
   transition: all 0.3s ease-in-out;
 }
 
-.logoLink:hover{
+.logoLink:hover {
   filter: brightness(80%);
 }
 
-.logoLink svg { /* compnente TimerIcon vira svg*/
+.logoLink svg {
+  /* compnente TimerIcon vira svg*/
   width: 6.4rem;
   height: 6.4rem; /*64px*/
 }
