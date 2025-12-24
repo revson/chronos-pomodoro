@@ -2,5 +2,6 @@
   margin: 3.2rem 0; /*32px*/
   display: flex; /*pesquisar display flexbox otavio miranda*/
   align-content: center;
+  justify-content: center;
   gap: 2.4rem; /*24px*/
 }
